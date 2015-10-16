@@ -14,15 +14,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/hello" />
 
-    <RadioButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click to Continue"
         android:id="@+id/radioButton"
+        android:layout_marginBottom="50dp"
+        android:checked="@bool/abc_action_bar_embed_tabs"
+        android:text="NEXT!"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="44dp"
-        android:checked="@bool/abc_action_bar_embed_tabs" />
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -30,9 +30,8 @@
         android:id="@+id/editText2"
         android:backgroundTint="#0063ff"
         android:text="&lt;Insert Name Here>"
-        android:layout_above="@+id/radioButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="93dp" />
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,6 +42,8 @@
         android:textSize="@dimen/abc_action_button_min_width_overflow_material"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#7a00ff"
+        android:textStyle="bold|italic" />
 
 </RelativeLayout>
