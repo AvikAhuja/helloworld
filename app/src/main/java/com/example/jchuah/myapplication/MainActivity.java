@@ -1,7 +1,9 @@
 package com.example.jchuah.myapplication;
 
+import android.os.Debug;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,7 +25,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onNextClick(View source){
-        Toast.makeText(this,"Houdy", Toast.LENGTH_LONG ).show();
+        //Toast.makeText(this,"Houdy", Toast.LENGTH_LONG ).show();
+        Log.d("LOLOLLOOL", "Next button clicked");
     }
 
     @Override
