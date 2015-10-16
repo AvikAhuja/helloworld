@@ -23,7 +23,8 @@
         android:checked="@bool/abc_action_bar_embed_tabs"
         android:text="NEXT!"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onNextClick" />
 
     <EditText
         android:layout_width="wrap_content"
