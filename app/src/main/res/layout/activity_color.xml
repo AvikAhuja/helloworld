@@ -5,24 +5,21 @@
     android:weightSum="1"
     android:background="#fefaff">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/viewText1"
-        android:layout_gravity="center_horizontal"
-        android:drawableTint="#8a1fff"
-        android:textColor="#871fff" />
-
     <TextView
-        android:layout_width="287dp"
-        android:layout_height="61dp"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
         android:id="@+id/textView"
-        android:layout_gravity="center_horizontal"
         android:text="What is your favorite color?"
         android:textSize="@dimen/abc_text_size_display_1_material"
         android:textColor="#ff00ef"
-        android:layout_weight="0.49"
         android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editText3" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -77,6 +74,14 @@
         android:id="@+id/button7"
         android:layout_gravity="center_horizontal"
         android:backgroundTint="#c7b8ff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT!"
+        android:id="@+id/button8"
+        android:layout_gravity="right" />
 
     <EditText
         android:layout_width="match_parent"
