@@ -8,11 +8,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     static String tag= "com.example.jchuah.myapplication.MainActivity";
-
 
     Bundle sendBundle = new Bundle();
     @Override
@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
         //Toast.makeText(this,"Houdy", Toast.LENGTH_LONG ).show();
         Log.i(tag, "launching Color Activity");
         Intent colorActivityIntent = new Intent(this, ColorActivity.class);
-
-        sendBundle.putString("name", "Tom");
+        EditText e = (EditText)findViewById(R.id.UserName);
+        sendBundle.putString("name", e.getText(). toString());
 
         colorActivityIntent.putExtra("groceries", sendBundle);
 
-        startActivity(colorActivityIntent);
+        startActivity(colorActivityIntent); //#lb
     }
 
     @Override

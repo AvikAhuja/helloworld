@@ -29,7 +29,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:id="@+id/UserName"
         android:backgroundTint="#0063ff"
         android:text="&lt;Insert Name Here>"
         android:layout_centerVertical="true"
